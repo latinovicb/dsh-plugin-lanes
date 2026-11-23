@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Lanes 分工",
+    "description": "配置 Subagent Director 的角色，并安装包含内置策略、只使用角色子代理的 lanes agent preset。"
+  }
+}

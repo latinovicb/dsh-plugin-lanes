@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Lanes",
+    "description": "Configures Subagent Director roles and installs the self-contained lanes agent preset for role-only delegation."
+  }
+}

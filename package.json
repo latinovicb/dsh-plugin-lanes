@@ -1,0 +1,33 @@
+{
+  "name": "dsh-plugin-lanes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Configures Subagent Director roles and installs the self-contained lanes agent preset for role-only delegation.",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dependencies": {
+    "dsh-plugin-subagent-director": "^0.6.0"
+  },
+  "engines": {
+    "dsh": "0.2.2-rc.1"
+  },
+  "files": [
+    "README.md",
+    "index.js",
+    "policy.md",
+    "cordis.patch.yml",
+    "gen-lanes-preset.py",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
