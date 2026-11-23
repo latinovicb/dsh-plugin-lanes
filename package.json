@@ -1,9 +1,26 @@
 {
   "name": "dsh-plugin-lanes",
   "version": "0.1.0",
-  "private": true,
   "type": "module",
   "description": "Configures Subagent Director roles and installs the self-contained lanes agent preset for role-only delegation.",
+  "author": "Borivoje Latinovic",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "subagent",
+    "lanes",
+    "agent-preset"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/latinovicb/dsh-plugin-lanes.git"
+  },
+  "homepage": "https://github.com/latinovicb/dsh-plugin-lanes#readme",
+  "bugs": {
+    "url": "https://github.com/latinovicb/dsh-plugin-lanes/issues"
+  },
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
@@ -18,6 +35,7 @@
   },
   "files": [
     "README.md",
+    "LICENSE",
     "index.js",
     "policy.md",
     "cordis.patch.yml",

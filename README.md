@@ -76,8 +76,20 @@ removed or trimmed; otherwise the model receives the lanes policy twice.
 
 ## Install
 
-In the Harness Web UI, open **Settings → Plugins → Add plugin** and give the
-absolute path to this package. Then restart `dsh web` and reload the page.
+### From npm
+
+Once published, open **Settings → Plugins → Add plugin** and enter:
+
+```text
+dsh-plugin-lanes
+```
+
+Install, then restart `dsh web` and reload the page.
+
+### From a local checkout
+
+Open **Settings → Plugins → Add plugin** and give the absolute path to this
+package. Then restart `dsh web` and reload the page.
 
 ### Migrating from the home_config patch
 
@@ -155,5 +167,6 @@ removed.
 - `index.js` — Host half registering the preset-scoped system prompt section.
 - `policy.md` — lanes policy text.
 - `gen-lanes-preset.py` — refreshes the preset from the installed DSH.
+- `LICENSE` — MIT license.
 - `locale/en.json`, `locale/zh.json` — bundle display metadata.
 - `icon.svg` — bundle artwork.
